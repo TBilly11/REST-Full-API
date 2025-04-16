@@ -1,6 +1,6 @@
 # REST-Full-API
 <h1>1 Idee</h1> 
-Hier muss eine RESTful API entwickelt werden, und die Benutzer (Client) müssen über HTTP-Anfragen auf die Daten zugreifen können. Die Daten sind persistent in einer Datenbank (Datagrip) gespeichert. Es geht um Eigenschaften von Autos, die in der Datenbank abgelegt sind. Hier kann der Benutzer HTTP-Anfragen wie POST, PUT, DELETE und GET senden, um Autos hinzuzufügen, zu löschen, Autoseigenschaften zu bearbeiten oder einfach die Eigenschaften eines Autos abzurufen. Jedes Auto hat folgende Eigenschaften:
+Flask ist ein Webframework, das in Python entwickelt wurde. Es legt seinen Schwerpunkt auf Erweiterbarkeit und umfassende Dokumentation. Die einzigen Softwareabhängigkeiten sind Jinja2, eine Template-Engine, und Werkzeug, eine Softwarebibliothek zur Erstellung von WSGI-Anwendungen. Hier muss eine RESTful API entwickelt werden, und die Benutzer (Client) müssen über HTTP-Anfragen auf die Daten zugreifen können. Die Daten sind persistent in einer Datenbank (Datagrip) gespeichert. Es geht um Eigenschaften von Autos, die in der Datenbank abgelegt sind. Hier kann der Benutzer HTTP-Anfragen wie POST, PUT, DELETE und GET senden, um Autos hinzuzufügen, zu löschen, Autoseigenschaften zu bearbeiten oder einfach die Eigenschaften eines Autos abzurufen. Jedes Auto hat folgende Eigenschaften:
 
 ➠ id 
 
