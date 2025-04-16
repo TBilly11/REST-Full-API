@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Auto Informationen</title>
+  <style>
+    /* Hier werden Styles für deine Tabelle definiert */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <h1>Autos</h1>
+  <table id="autoTable">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Marke</th>
+        <th>Baujahr</th>
+        <th>Preis</th>
+        <th>Farbe</th>
+        <th>Getriebe</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Hier werden die Daten dynamisch eingefügt -->
+    </tbody>
+  </table>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      fetch('/autos')
+        .then(response => response.json())
+        .then(data => {
+          const tableBody = document.querySelector('#autoTable tbody');
+          data.forEach(auto => {
+            const row = document.createElement('tr');
+            Object.values(auto).forEach(value => {
+              const cell = document.createElement('td');
+              cell.textContent = value;
+              row.appendChild(cell);
+            });
+            tableBody.appendChild(row);
+          });
+        })
+        .catch(error => console.error('Error:', error));
+    });
+  </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Auto Informationen</title>
+  <style>
+    /* Hier werden Styles für deine Tabelle definiert */
+    /* ... (dein vorhandenes CSS hier) ... */
+  </style>
+</head>
+<body>
+ 

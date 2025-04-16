@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Autos</title>
+    <style>
+        table {
+            font-family: Arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Autos</h1>
+    <table id="autoTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Marke</th>
+                <th>Baujahr</th>
+                <th>Preis</th>
+                <th>Farbe</th>
+                <th>Getriebe</th>
+                <th>Geschwindigkeit</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Hier werden die Daten dynamisch eingefügt -->
+            <tbody>
+                <!-- Hier werden die Daten dynamisch eingefügt -->
+                {% for auto in autos %}
+                <tr>
+                    <td>{{ auto[0] }}</td>
+                    <td>{{ auto[1] }}</td>
+                    <td>{{ auto[2] }}</td>
+                    <td>{{ auto[3] }}</td>
+                    <td>{{ auto[4] }}</td>
+                    <td>{{ auto[5] }}</td>
+                    <td>{{ auto[6] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </tbody>
+    </table>
+
+    <script>
+        // Hier kann JavaScript verwendet werden, um Daten abzurufen und die Tabelle zu füllen
+        fetch('/autos')
+            .then(response => response.json())
+            .then(data => {
+                const tableBody = document.querySelector('#autoTable tbody');
+                data.forEach(auto => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td>${auto.id}</td>
+                        <td>${auto.Marke}</td>
+                        <td>${auto.Baujahr}</td>
+                        <td>${auto.Preis}</td>
+                        <td>${auto.Farbe}</td>
+                        <td>${auto.Getriebe}</td>
+                        <td>${auto.Geschwindigkeit}</td>
+                    `;
+                    tableBody.appendChild(row);
+                });
+            });
+    </script>
+</body>
+</html>
