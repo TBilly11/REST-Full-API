@@ -20,7 +20,7 @@ Hier muss eine RESTful API entwickelt werden, und die Benutzer (Client) müssen 
 <h1>2 Software</h1> 
 
 ➠ Visual Studio Code:
- ist ein kostenloser Texteditor von Microsoft, der auf verschiedenen Betriebssystemen wie Windows, macOS und Linux läuft. Er nutzt das Electron-Framework und bietet zahlreiche Funktionen wie Syntaxhervorhebung, Code-Faltung, Debugging, automatisches Vervollständigen und Versionskontrolle.
+Ist ein kostenloser Texteditor von Microsoft, der auf verschiedenen Betriebssystemen wie Windows, macOS und Linux läuft. Er nutzt das Electron-Framework und bietet zahlreiche Funktionen wie Syntaxhervorhebung, Code-Faltung, Debugging, automatisches Vervollständigen und Versionskontrolle.
 
 
 ➠ Datagrip:
@@ -46,7 +46,7 @@ In folgendem Formular werden die Eigenschaften des Autos erfasst. Die API ist da
 
 <h2>3.2 Auto abrufen dank seiner Id mit GET Anfrage  </h2> 
 
-Hier kann man ein Auto dank seiner Id abrufen werden. In diesem Beispiel wird ein Auto mit ID 10 abgerufen werden und das entspricht das Auto die vorher hinzugefügt wurde.
+Hier kann man ein Auto dank seiner Id abrufen werden. In diesem Beispiel wird ein Auto mit ID 10 abgerufen werden und das entspricht das Auto, das vorher hinzugefügt wurde.
 
 <br />
 <img src="https://i.imgur.com/zfnHFld.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -63,7 +63,7 @@ Hier kann man ein Auto dank seiner Id modifiziert werden. In diesem Beispiel wir
 
 <h2>3.4 Auto löschen dank seiner Id</h2> 
 
-Hier kann man ein Auto dank seiner Id gelöscht werden. In diesem Beispiel wird ein Auto mit ID 10 gelöscht  und das entspricht das Auto die vorher hinzugefügt wurde.
+Hier kann man ein Auto dank seiner Id gelöscht werden. In diesem Beispiel wird ein Auto mit ID 10 gelöscht  und das entspricht das Auto, das vorher hinzugefügt wurde.
 
 <br />
 <img src="https://i.imgur.com/XLVDA4Q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
