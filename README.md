@@ -35,12 +35,10 @@ Postman stellt eine proprietäre Plattform für Programmierschnittstellen (APIs)
 
 <h1>3 Test der RESTful API mit Postman</h1> 
 <h2>3.1 Neues Auto hinzufügen dank POST-Anfrage </h2> 
-In folgendem Formular werden die Eigenschaften des Autos erfasst. Die API ist dafür zuständig, diese Daten in der Datenbank zu speichern, sodass sie später abgerufen, gelöscht oder bearbeitet werden können.
+In folgendem Formular werden die Eigenschaften des Autos erfasst. Die API ist dafür zuständig, diese Daten in der Datenbank zu speichern, sodass sie später abgerufen, gelöscht oder bearbeitet werden können. <br />
 
 <br />
 <img src="https://i.imgur.com/RFbiodq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-
 <br />
 <img src="https://i.imgur.com/5Tzl4bl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
