@@ -57,7 +57,7 @@ Hier kann man ein Auto dank seiner Id abrufen werden. In diesem Beispiel wird ei
 
 <h2>3.3 Auto Eigenschaften modifizieren dank PUT Http-Anfrage  </h2> 
 
-Hier kann man ein Auto dank seiner Id abrufen werden. In diesem Beispiel wird ein Auto mit ID 10 abgerufen werden und das entspricht das Auto die vorher hinzugefügt wurde.
+Hier kann man ein Auto dank seiner Id modifiziert werden. In diesem Beispiel wird ein Auto mit ID 10 modifiziert und zwar die Farbe von grau zu blau.
 
 <br />
 <img src="https://i.imgur.com/I5YTvtg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -65,7 +65,7 @@ Hier kann man ein Auto dank seiner Id abrufen werden. In diesem Beispiel wird ei
 
 <h2>3.4 Auto löschen dank seiner Id</h2> 
 
-Hier kann man ein Auto dank seiner Id abrufen werden. In diesem Beispiel wird ein Auto mit ID 10 abgerufen werden und das entspricht das Auto die vorher hinzugefügt wurde.
+Hier kann man ein Auto dank seiner Id gelöscht werden. In diesem Beispiel wird ein Auto mit ID 10 gelöscht  und das entspricht das Auto die vorher hinzugefügt wurde.
 
 <br />
 <img src="https://i.imgur.com/XLVDA4Q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
